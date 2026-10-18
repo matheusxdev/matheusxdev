@@ -38,6 +38,31 @@ Biblioteca open source que criei para listas de pessoas deixarem de usar o mesmo
 - React: `namefaces/react`
 - 400 primeiros nomes com rosto próprio, sobrenome `silva`, e iniciais para o resto
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="./assets/namefaces/matheus.svg" width="96" alt="Matheus" /><br />
+      <sub>Matheus</sub>
+    </td>
+    <td align="center">
+      <img src="./assets/namefaces/ana.svg" width="96" alt="Ana" /><br />
+      <sub>Ana</sub>
+    </td>
+    <td align="center">
+      <img src="./assets/namefaces/maria.svg" width="96" alt="Maria" /><br />
+      <sub>Maria</sub>
+    </td>
+    <td align="center">
+      <img src="./assets/namefaces/miguel.svg" width="96" alt="Miguel" /><br />
+      <sub>Miguel</sub>
+    </td>
+    <td align="center">
+      <img src="./assets/namefaces/sabrina.svg" width="96" alt="Sabrina" /><br />
+      <sub>Sabrina</sub>
+    </td>
+  </tr>
+</table>
+
 ```bash
 npm install namefaces
 ```
