@@ -1,13 +1,12 @@
 <h1 align="center">Matheus Oliveira</h1>
 <p align="center">
-  Fundador da <a href="https://www.olisistemas.com.br">Oli Sistemas</a> e da <a href="https://starhubsolutions.com">StarHub Solutions</a>.<br>
+  Co-fundador da <a href="https://www.olisistemas.com.br">OliTech Sistemas</a>.<br>
   Construo o software com que empresas vendem, emitem nota, controlam o caixa e aparecem na internet.
 </p>
 
 <p align="center">
-  <a href="https://www.olisistemas.com.br">Oli Sistemas</a> ·
+  <a href="https://www.olisistemas.com.br">OliTech Sistemas</a> ·
   <a href="https://erp.olisistemas.com.br">Oli Tech ERP</a> ·
-  <a href="https://starhubsolutions.com">StarHub</a> ·
   <a href="https://github.com/matheusxdev/namefaces">namefaces</a> ·
   <a href="https://www.npmjs.com/package/namefaces">npm</a> ·
   <a href="https://matheusxdev.com.br">site</a> ·
@@ -16,9 +15,9 @@
 
 ---
 
-## Oli Sistemas
+## OliTech Sistemas
 
-A [Oli Sistemas](https://www.olisistemas.com.br) é o ecossistema para operar a empresa. Cada produto tem o próprio domínio e o mesmo fio de dados: venda, atendimento, caixa e contabilidade sem planilha paralela.
+A [OliTech Sistemas](https://www.olisistemas.com.br) é o ecossistema para operar a empresa. Cada produto tem o próprio domínio e o mesmo fio de dados: venda, atendimento, caixa e contabilidade sem planilha paralela.
 
 | Produto | O que resolve | Site |
 | --- | --- | --- |
@@ -29,10 +28,6 @@ A [Oli Sistemas](https://www.olisistemas.com.br) é o ecossistema para operar a 
 | **Apps** | Operação em campo ligada ao mesmo ecossistema do ERP | [olisistemas.com.br/apps](https://www.olisistemas.com.br/apps) |
 
 Guias de ERP, fiscal, CRM e operação no [blog da Oli](https://blog.olisistemas.com.br).
-
-## StarHub Solutions
-
-A [StarHub Solutions](https://starhubsolutions.com) é a plataforma para criar sites de empresas: vitrine, e-commerce, templates (turismo, delivery e árvore de links) e gestão de clientes, pedidos e produtos. O foco é sair do zero para um site profissional sem depender de um projeto sob medida para cada detalhe.
 
 ## namefaces
 
