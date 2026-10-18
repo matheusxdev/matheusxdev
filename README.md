@@ -1,64 +1,95 @@
-<!--
-**matheusxdev/matheusxdev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">Matheus Oliveira</h1>
+<p align="center">
+  Fundador da <a href="https://www.olisistemas.com.br">Oli Sistemas</a> e da <a href="https://starhubsolutions.com">StarHub Solutions</a>.<br>
+  Construo o software com que empresas vendem, emitem nota, controlam o caixa e aparecem na internet.
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  <a href="https://www.olisistemas.com.br">Oli Sistemas</a> ·
+  <a href="https://erp.olisistemas.com.br">Oli Tech ERP</a> ·
+  <a href="https://starhubsolutions.com">StarHub</a> ·
+  <a href="https://github.com/matheusxdev/namefaces">namefaces</a> ·
+  <a href="https://www.npmjs.com/package/namefaces">npm</a> ·
+  <a href="https://matheusxdev.com.br">site</a> ·
+  <a href="https://instagram.com/matheusxdeveloper">Instagram</a>
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
 
-<h2 align="left">👋 Hello, my name is Matheus, I'm from Brazil and I'm developing a tool to make it easier to create websites for companies.</h2>
+## Oli Sistemas
 
-###
+A [Oli Sistemas](https://www.olisistemas.com.br) é o ecossistema para operar a empresa. Cada produto tem o próprio domínio e o mesmo fio de dados: venda, atendimento, caixa e contabilidade sem planilha paralela.
+
+| Produto | O que resolve | Site |
+| --- | --- | --- |
+| **Oli Tech ERP** | Pedidos, anúncios, NF-e, estoque e operação de e-commerce e marketplaces (Mercado Livre, Shopee e Amazon) num painel | [erp.olisistemas.com.br](https://erp.olisistemas.com.br) |
+| **CRM** | Atendimento, pipeline e conversas do time comercial no mesmo fio | [crm.olisistemas.com.br](https://crm.olisistemas.com.br) |
+| **Finances** | Open Finance, DDA, extrato enriquecido e conciliação multi-banco | [finances.olisistemas.com.br](https://finances.olisistemas.com.br) |
+| **Contabilidade** | Escritório multi-empresa, XML, lançamentos e rotina contábil | [contador.olisistemas.com.br](https://contador.olisistemas.com.br) |
+| **Apps** | Operação em campo ligada ao mesmo ecossistema do ERP | [olisistemas.com.br/apps](https://www.olisistemas.com.br/apps) |
+
+Guias de ERP, fiscal, CRM e operação no [blog da Oli](https://blog.olisistemas.com.br).
+
+## StarHub Solutions
+
+A [StarHub Solutions](https://starhubsolutions.com) é a plataforma para criar sites de empresas: vitrine, e-commerce, templates (turismo, delivery e árvore de links) e gestão de clientes, pedidos e produtos. O foco é sair do zero para um site profissional sem depender de um projeto sob medida para cada detalhe.
+
+## namefaces
+
+Biblioteca open source que criei para listas de pessoas deixarem de usar o mesmo ícone genérico. **Cada nome ganha um rosto próprio.** O mesmo nome sempre gera o mesmo avatar, em SVG, sem hospedar imagem. Quando ainda não existe um rosto desenhado, a lib cai para iniciais (`M`, `MO`, `LF`).
+
+- Repositório: [github.com/matheusxdev/namefaces](https://github.com/matheusxdev/namefaces)
+- Pacote: [npmjs.com/package/namefaces](https://www.npmjs.com/package/namefaces) · `namefaces@0.7.0`
+- React: `namefaces/react`
+- 400 primeiros nomes com rosto próprio, sobrenome `silva`, e iniciais para o resto
+
+```bash
+npm install namefaces
+```
+
+```tsx
+import { NameFace } from "namefaces/react";
+
+export function Cliente({ nome }: { nome: string }) {
+  return <NameFace name={nome} size={40} />;
+}
+```
+
+```js
+import { getAvatarSvg, getAvatarDataUri } from "namefaces";
+
+const svg = getAvatarSvg("Matheus Oliveira");
+const src = getAvatarDataUri("Lucas Ferreira"); // iniciais "LF"
+```
+
+Uso livre em apps comerciais. A licença não permite revender a lib como um produto pago de avatares.
+
+## No GitHub
+
+Projetos públicos além da namefaces:
+
+- [nearby](https://github.com/matheusxdev/nearby) — app de clube de benefícios, com cupons em estabelecimentos perto de você
+- [api-nearby](https://github.com/matheusxdev/api-nearby) — API desse clube · [api-nearby.vercel.app](https://api-nearby.vercel.app)
+
+## Stack
+
+TypeScript no dia a dia. Vue e Nuxt nas vitrines, React Native e Expo nos apps, PHP e Laravel nas APIs de produto.
+
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="28" alt="TypeScript" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" height="28" alt="Vue" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="28" alt="React" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="28" alt="PHP" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" height="28" alt="Laravel" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="28" alt="MySQL" />
+</p>
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=matheusxdev&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=dracula&locale=pt-br&hide_border=false" height="150" alt="stats graph"  />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=matheusxdev&locale=pt-br&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
+  <img src="https://github-readme-stats.vercel.app/api?username=matheusxdev&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent&locale=pt-br&rank_icon=github" height="150" alt="Estatísticas do GitHub" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=matheusxdev&layout=compact&langs_count=6&hide_border=true&theme=transparent&locale=pt-br" height="150" alt="Linguagens mais usadas" />
 </div>
-
-###
-
-<img align="right" height="150" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdnpzanU1bnRwaDc5eWM0NHV1M2JuY2h6bzVjMTdiZDFsZjFnNzV4NSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qgQUggAC3Pfv687qPC/giphy.webp"  />
-
-###
-
-<div align="left">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" height="30" alt="php logo"  />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="30" alt="mysql logo"  />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="30" alt="git logo"  />
-<img width="12" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="30" alt="github logo"  />
-</div>
-
-###
-
-<div align="left">
-<a href="https://instagram.com/matheusxdev" target="_blank">
-  <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="instagram logo"  />
-</a>
-<a href="https://matheusxdev.com.br" target="_blank">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="linkedin logo"  />
-</a>
-</div>
-
-###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/matheusxdev/matheusxdev/output/snake.svg" alt="Snake animation" />
-
-###
