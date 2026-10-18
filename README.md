@@ -11,7 +11,7 @@
   <a href="https://github.com/matheusxdev/namefaces">namefaces</a> ·
   <a href="https://www.npmjs.com/package/namefaces">npm</a> ·
   <a href="https://matheusxdev.com.br">site</a> ·
-  <a href="https://instagram.com/matheusxdeveloper">Instagram</a>
+  <a href="https://instagram.com/matheusxstarhub">Instagram</a>
 </p>
 
 ---
